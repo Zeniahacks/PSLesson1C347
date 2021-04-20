@@ -14,8 +14,8 @@ public class FirstAdapter extends ArrayAdapter<First> {
     private Context context;
     private TextView textView;
 
-    public FirstAdapter(Context context, int resource, ArrayList<First> years) {
-        super(context, resource, years);
+    public FirstAdapter(Context context, int resource, ArrayList<First> types) {
+        super(context, resource, types);
         this.types = types;
         this.context = context;
     }
