@@ -17,9 +17,9 @@ public class SecondAdapter extends ArrayAdapter<Second> {
     private ImageView imageView;
     private TextView textView;
 
-    public SecondAdapter(Context context, int resource, ArrayList<Second> objects) {
-        super(context, resource, objects);
-        this.holiday = objects;
+    public SecondAdapter(Context context, int resource, ArrayList<Second> holiday) {
+        super(context, resource, holiday);
+        this.holiday = holiday;
         this.context = context;
     }
 
